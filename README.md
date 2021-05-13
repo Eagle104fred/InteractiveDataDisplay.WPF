@@ -1,4 +1,5 @@
 # Tips:不要使用NuGet安装InteractiveDataDisplay库, 直接下载微软官方源码, 在Debug目录下的dll是可以在framework4.6.1下正常使用的
+微软官方项目:https://github.com/microsoft/InteractiveDataDisplay.WPF
 
 # 画动态旋转梯形
 ![image](https://user-images.githubusercontent.com/23237287/118134878-f95f3f00-b434-11eb-9c37-b539b044d501.png)
