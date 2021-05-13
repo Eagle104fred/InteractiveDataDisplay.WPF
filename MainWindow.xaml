@@ -1,0 +1,22 @@
+﻿<Window x:Class="IDD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IDD" xmlns:d3="clr-namespace:InteractiveDataDisplay.WPF;assembly=InteractiveDataDisplay.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid >
+
+        <d3:Chart Name="myChart" Margin="0,0,0,34" PlotHeight="10" PlotWidth="10" >
+            <Grid x:Name="myGrid">
+
+            </Grid>
+
+        </d3:Chart>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="707,781,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+
+    </Grid>
+
+
+</Window>
