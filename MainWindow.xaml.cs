@@ -186,9 +186,9 @@ namespace IDD
                 pointList.Add(new Point(-1, 1));
                 pointList.Add(new Point(-4, 6));
                 
-                for (double i = 0; i < 360;i+=0.1)
+                for (double i = 0; i < 360;i+=2)
                 {
-                    Thread.Sleep(10);
+                    Thread.Sleep(1000);
                     List<Point> pointListTrans = new List<Point>();
                     for (int j = 0; j < pointList.Count; j++)
                     {
@@ -198,8 +198,8 @@ namespace IDD
                     }
 
                     //KS:切换两种刷新方法 
-                    //PenDrawKeepOld(line, pointListTrans);
-                    PenDrawRefresh(line, pointListTrans);
+                    PenDrawKeepOld(line, pointListTrans);
+                    //PenDrawRefresh(line, pointListTrans);
                 }
 
 
